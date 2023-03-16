@@ -1,0 +1,17 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+}
+
+@media (min-width: 768px) {
+  .box {
+    background-color: blue;
+  }
+} /*캐스케이딩 개념// media 쿼리가 먼저 적용 min width = 최소 넓이 768*/
+
+@media (min-width: 1024px) {
+  .box {
+    background-color: red;
+  }
+}
